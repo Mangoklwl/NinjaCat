@@ -7,7 +7,7 @@ public class Bomb : MonoBehaviour
 
     
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnte(Collider other)
     {
        
         if (other.CompareTag("Player"))
